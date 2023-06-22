@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #eeccff;
+    width: 100%;
+    height: 100%;
+}
+.container{
+  	margin: auto;
+    background-color: navy;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;     
+}
+.display-box {	    
+ 	font-family: 'Orbitron', sans-serif;
+ 	background-color: whitesmoke;
+ 	border: solid black 0.5px;
+ 	color: black;
+ 	border-radius: 5px;
+ 	width: 320px;
+ 	height: 70px;
+    font-size: 40px;
+    margin: 11px;
+}
+.button {
+ 	margin: 9px;
+	width: 65px;
+	height: 65px;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+ 	display: inline;
+ 	cursor: pointer;
+}
+.button1{
+ 	margin: 4px;
+	width: 150px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+ 	display: inline;
+ 	cursor: pointer;
+}
+.button:active {
+ 	background: #e5e5e5;
+ 	box-shadow: inset 0px 0px 5px #c1c1c1;
+
+}
+.button:hover {
+	background-color: palevioletred;
+	box-shadow: 0px 0px 2px palevioletred, inset 0px -20px 1px palevioletred;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+.button1:active {
+	background: #e5e5e5;
+	box-shadow: inset 0px 0px 5px #c1c1c1;
+
+}
+.button1:hover {
+   background-color: palevioletred;
+   box-shadow: 0px 0px 2px palevioletred, inset 0px -20px 1px palevioletred;
+   border-top: 2px solid #FFF;
+   border-right: 2px solid #FFF;
+   border-left: 2px solid #FFF;
+   border-bottom: 2px solid #FFF;
+}
